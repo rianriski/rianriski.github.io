@@ -51,7 +51,7 @@ workbox.precaching.precacheAndRoute(
         "https://fonts.gstatic.com/s/materialicons/v52/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2",
       revision: "1",
     },
-  ]
+  ],
   {
     ignoreUrlParametersMatching: [/.*/],
   }
@@ -60,7 +60,7 @@ workbox.precaching.precacheAndRoute(
 workbox.routing.registerRoute(
   new RegExp("https://api.football-data.org/v2/"),
   workbox.strategies.staleWhileRevalidate({
-    cacheName: "chelseaqu",
+    cacheName: "chelseaa",
     plugins: [
       new workbox.cacheableResponse.Plugin({
         statuses: [200],
