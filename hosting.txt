@@ -1,0 +1,6 @@
+Hosting Submission 3 MPWA
+1. Firebase
+- Url : submission-mpwa.web.app
+2. Github
+- Url : rianriski.github.io
+- Git : https://github.com/rianriski/rianriski.github.io

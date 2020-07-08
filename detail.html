@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chelsea FC | Official Site Chelsea Football Club</title>
+    <meta name="description" content="Chelsea FC" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Membuat Web App Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#1e88e5" />
+
+    <!-- Optimization & Configuration for IOS -->
+    <link rel="shortcut icon" href="/img/icons/apple.png" />
+    <link rel="apple-touch-icon" href="/img/icons/apple.png" />
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- awal navbar -->
+    <nav class="blue darken-2" role="navigation">
+      <div class="container nav-wrapper navbar-fixed">
+        <a href="" class="brand-logo" id="logo-container">Detail Match</a>
+        <a
+          id="match"
+          href="index.html#match"
+          data-target="nav-mobile"
+          class="sidenav-trigger"
+          ><i class="material-icons">arrow_back</i></a
+        >
+        <a
+          id="fav"
+          href="index.html#saved"
+          data-target="nav-mobile"
+          class="sidenav-trigger"
+          ><i class="material-icons">arrow_back</i></a
+        >
+        <ul class="topnav right hide-on-med-and-down"></ul>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- awal sidebar -->
+    <ul class="sidenav" id="nav-mobile"></ul>
+    <!-- akhir sidebar -->
+
+    <!-- awal jumbotron -->
+    <div>
+      <img src="/img/match.jpg" class="jumbotron" alt="jumbotron" />
+      <div class="center">
+        <img
+          class="logo"
+          src="/img/icons/icon-192x192.png"
+          alt="logo-chelsea"
+        />
+      </div>
+    </div>
+    <!-- akhir jumbotron -->
+
+    <!-- awal detail -->
+    <div class="container" id="detail-content"></div>
+    <br />
+    <div class="container">
+      <a
+        class="waves-effect waves-light btn btn-small center-align blue darken-2 mar-right"
+        href="index.html#match"
+        id="back-match"
+      >
+        <i class="material-icons left">arrow_back</i>Back</a
+      >
+      <a
+        class="waves-effect waves-light btn btn-small center-align pink lighten-1"
+        id="save"
+      >
+        <i class="material-icons left">favorite</i>Add To Favorite</a
+      >
+      <a
+        class="waves-effect waves-light btn btn-small center-align blue darken-2 mar-right"
+        href="index.html#saved"
+        id="back-fav"
+      >
+        <i class="material-icons left">arrow_back</i>Back</a
+      >
+      <a
+        class="waves-effect waves-light btn btn-small center-align red darken-1"
+        id="delete"
+      >
+        <i class="material-icons left">delete</i>Delete Favorite</a
+      >
+    </div>
+    <br />
+    <br />
+    <!-- akhir detail -->
+
+    <!-- awal footer -->
+    <footer class="blue darken-2 center white-text">
+      <h6>
+        Proudly Present by Chelsea FC Management Copyright &copy;2020
+      </h6>
+    </footer>
+    <!-- akhir footer -->
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- My Own Javascript -->
+    <script src="js/api.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/detail.js"></script>
+    <script src="js/notification.js"></script>
+    <script src="js/registersw.js"></script>
+  </body>
+</html>
